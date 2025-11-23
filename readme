@@ -1,5 +1,5 @@
 VELMAP is a MATLAB code that estimates surface velocity and strain-rate fields through a joint inversion of InSAR and GNSS data. It can also be used to reference InSAR line-of-sight velocities to GNSS reference frames.
-JF has updated the code to improve its performance for large-scale calculations (e.g., in Tibet and the Alpine-Himalayan Belt).
+Jin Fang (J.Fang@leeds.ac.uk) has updated the code to improve its performance for large-scale calculations (e.g., in Tibet and the Alpine-Himalayan Belt).
 
 References
 Wang, H., Wright, T.J., 2012. Satellite geodetic imaging reveals internal deformation of western Tibet. Geophysical Research Letters, 39(7). https://doi.org/10.1029/2012GL051222.
