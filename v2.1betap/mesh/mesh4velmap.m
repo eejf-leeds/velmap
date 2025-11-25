@@ -1,5 +1,6 @@
 % meshing for velmap
 % Jin Fang
+% Thanks to Kaj Johnson for providing useful tools (‘mesh2d’ and ‘tools’): https://github.com/kajjohns/SliDeFS/tree/main/build_mesh.
 
 clear all
 
