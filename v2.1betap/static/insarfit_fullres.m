@@ -18,9 +18,11 @@
 %save('insarfit2','insarfit2','-v7.3');
 %cd ../
 
-outputgeotiffs
+%outputgeotiffs
 
 fprintf('====Finished successfully. Saving insarfit2.mat====\n');
 cd (outdir)
 save('insarfit2','insarfit2','-v7.3');
 cd ../
+
+outputgeotiffs
