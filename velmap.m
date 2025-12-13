@@ -18,6 +18,7 @@ tic
 
 % input config file
 cfgfile = 'velmap.conf';
+do_fullres = true;   % set false to skip full-resolution InSAR forward calculation (time-consuming...)
 
 % add path to functions
 addpath('v2.1betap/pilib')
@@ -279,8 +280,11 @@ end
 %save(strcat('pars',num2str(log10(smpar.smf)),'.mat'),'-v7.3')
 
 %JF added
-fprintf('====Forward calculation at InSAR original resolution====\n');
-insarfit_fullres
+if do_fullres
+    fprintf('====Forward calculation at InSAR original resolution====\n');
+    insarfit_fullres
+end
+
 fprintf('====finished successfully, congratulations!====\n');
 
 toc
